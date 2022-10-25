@@ -67,7 +67,9 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     </div>
+    <div id="instafeed"></div>
 
+   
        
 </body>
 
@@ -76,4 +78,11 @@
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.js.map"></script>
+    <!-- Instafeed -->
+    <script type="text/javascript">
+        var feed = new Instafeed({
+          accessToken: 'your-token'
+        });
+        feed.run();
+    </script>
 </html>
